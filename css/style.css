@@ -9,18 +9,133 @@
 
 .container {
   width: 100%;
-  max-width: 1540px;
+  height: 100vh;
+  max-width: 1550px;
   margin: 0 auto;
 }
 
 header {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 nav {
   width: 100%;
   height: 150px;
-  background: linear-gradient(to right,#443682, #28418a, #00669c);
+  padding: 0px 50px;
+  background: linear-gradient(to right, #443682, #28418a, #00669c);
   display: flex;
-  
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+}
+.logo {
+  margin-left: 110px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.name .name-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.name .name-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+.clock span {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}
+.time span {
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+.call {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #ffffff;
+}
+button {
+  width: 161px;
+  height: 44px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  /* margin-right: 90px; */
+}
+button:active {
+  scale: 0.95;
+  transition: 0.3s;
+}
+.manu {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/something.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.url {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  justify-content: center;
+}
+.url .us {
+  width: 70%;
+  height: 81px;
+  background-color: #ffffff;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.us ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  display: flex;
+  gap: 63px;
+  list-style: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.addition {
+  width: 530px;
+  height: 306px;
+  border: 1px solid black;
 }
