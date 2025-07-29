@@ -18,6 +18,7 @@ header {
   width: 100%;
   height: 100%;
 }
+
 nav {
   width: 100%;
   height: 150px;
@@ -28,18 +29,22 @@ nav {
   align-items: center;
   /* gap: 20px; */
 }
+
 .logo {
   margin-left: 110px;
 }
+
 .name {
   display: flex;
   flex-direction: column;
   color: #ffffff;
 }
+
 .name .name-title {
   font-weight: 700;
   font-size: 20px;
 }
+
 .name .name-subtitle {
   font-weight: 500;
   font-size: 18px;
@@ -52,12 +57,14 @@ nav {
   gap: 12px;
   cursor: pointer;
 }
+
 .clock {
   display: flex;
   align-items: center;
   gap: 10px;
   color: #ffffff;
 }
+
 .clock span {
   font-weight: 400;
   font-size: 20px;
@@ -67,17 +74,20 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
 .time span {
   font-weight: 400;
   font-size: 15px;
   color: #ffffff;
 }
+
 .call {
   display: flex;
   align-items: center;
   gap: 18px;
   color: #ffffff;
 }
+
 button {
   width: 161px;
   height: 44px;
@@ -90,24 +100,28 @@ button {
   cursor: pointer;
   /* margin-right: 90px; */
 }
+
 button:active {
   scale: 0.95;
   transition: 0.3s;
 }
+
 .manu {
   width: 100%;
   height: 100%;
   background-image: url(../img/something.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
+
 .url {
   width: 100%;
   height: 81px;
   display: flex;
   justify-content: center;
 }
+
 .url .us {
   width: 70%;
   height: 81px;
@@ -116,12 +130,14 @@ button:active {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
 .us ul {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 a::after {
   content: "";
   display: block;
@@ -133,9 +149,11 @@ a::after {
   left: 0;
   bottom: -3px;
 }
+
 a:hover::after {
   width: 100%;
 }
+
 ul li {
   display: flex;
   gap: 63px;
@@ -143,6 +161,7 @@ ul li {
   font-weight: 700;
   cursor: pointer;
 }
+
 li a {
   font-size: 15px;
   text-decoration: none;
@@ -159,16 +178,19 @@ li a {
   margin-top: 108px;
   margin-left: 230px;
 }
+
 .addition .title {
   font-size: 39px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .info li {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
 }
+
 .addition button {
   width: 250px;
   height: 60px;
@@ -182,11 +204,14 @@ li a {
   font-size: 16px;
   cursor: pointer;
 }
+
 .card {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
+
 .card-iteam {
   width: 1162px;
   height: 280px;
@@ -196,6 +221,7 @@ li a {
   align-items: center;
   gap: 38px;
 }
+
 .cards {
   width: 262px;
   height: 280px;
@@ -207,12 +233,14 @@ li a {
   justify-content: center;
   gap: 30px;
   cursor: pointer;
-  user-select: none;
+  /* user-select: none; */
 }
+
 .cards:active {
   scale: 0.95;
   transition: 0.3s;
 }
+
 .circyle {
   width: 97px;
   height: 97px;
@@ -223,16 +251,19 @@ li a {
   justify-content: center;
   margin: 0 auto;
 }
+
 .inst-title {
   font-size: 15px;
   font-weight: 700;
   text-align: center;
 }
+
 main {
   width: 100%;
   height: 100vh;
   margin-top: 310px;
 }
+
 .type {
   width: 100%;
   height: 887px;
@@ -240,10 +271,12 @@ main {
   display: flex;
   align-items: center;
 }
+
 .washe {
   width: 913px;
   height: 602px;
 }
+
 .text {
   width: 570px;
   height: 234px;
@@ -252,21 +285,25 @@ main {
   gap: 35px;
   margin-left: 92px;
 }
+
 .text h1 {
   font-size: 28px;
   font-weight: 500;
 }
+
 .text p {
   font-size: 15px;
   font-weight: 500;
 }
+
 .text button {
   width: 250px;
   height: 60px;
   background-color: #00bb34;
   color: #ffffff;
-  user-select: none;
+  /* user-select: none; */
 }
+
 .service {
   width: 100%;
   height: 200vh;
@@ -274,11 +311,13 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .payment {
   width: 1170px;
   height: 1443px;
   margin-top: 17px;
 }
+
 .typing {
   width: 100%;
   display: flex;
@@ -286,19 +325,23 @@ main {
   gap: 20px;
   justify-content: space-between;
 }
+
 .typing h1 {
   font-size: 28px;
   font-weight: 700;
 }
+
 .typing p {
   font-size: 22px;
   font-weight: 700;
 }
+
 hr {
   width: 140px;
   height: 3px;
   background-color: #000000;
 }
+
 .things {
   width: 100%;
   height: 458px;
@@ -306,11 +349,13 @@ hr {
   border: 1px solid #000000;
   position: relative;
 }
+
 .box2 {
   position: absolute;
   top: 61px;
   right: 866px;
 }
+
 .ball {
   width: 184px;
   height: 184px;
@@ -324,25 +369,30 @@ hr {
   left: 213px;
   bottom: 48px;
 }
+
 .ball h1 {
   font-size: 55px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .ball p {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .box3 {
   position: absolute;
   right: 0px;
 }
+
 .box4 {
   position: absolute;
   right: 52px;
   top: 85px;
 }
+
 .ball1 {
   width: 184px;
   height: 184px;
@@ -356,16 +406,19 @@ hr {
   bottom: 48px;
   right: 0px;
 }
+
 .ball1 h1 {
   font-size: 55px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .ball1 p {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
 }
-.pay{
-    
+
+main {
+  margin-top: 600px;
 }

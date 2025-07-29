@@ -8,7 +8,7 @@
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 750vh;
     width: 100%;
     max-width: 1540px;
     margin: 0 auto;
@@ -78,7 +78,7 @@ nav {
     background: linear-gradient(to left, #443682, #28418A, #00669C);
     width: 80%;
     height: 80px;
-    border-radius: 0px 0px 12px 12px; 
+    border-radius: 0px 0px 12px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,4 +127,360 @@ a {
 
 .infos-area p {
     line-height: 20px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -180px;
+}
+
+.card-iteam {
+    width: 1162px;
+    height: 280px;
+    margin-top: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.cards {
+    width: 262px;
+    height: 280px;
+    background: linear-gradient(#a6dbf5, #451874);
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+    /* user-select: none; */
+}
+
+.cards:active {
+    scale: 0.95;
+    transition: 0.3s;
+}
+
+.circyle {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.inst-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+
+.zakazBtn {
+    width: 250px;
+    height: 60px;
+    background-color: rgb(0, 179, 0);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    box-shadow: 0 4px 11px 3px rgb(47, 255, 0);
+    /* margin-top: -210px; */
+    position: absolute;
+    /* margin-left: 180px; */
+    left: 250px;
+    margin-top: 110px;
+}
+
+.infos-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.box-sale {
+    width: 600px;
+    height: 70px;
+    background: linear-gradient(to right, #4C257D, #A2D3F1);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 250px;
+    margin-top: 90px;
+    color: #ffffff;
+}
+
+.para-sale {
+    width: 600px;
+    font-size: 12px;
+    margin-left: 250px;
+    margin-top: 20px;
+    color: #B0B0B0;
+    line-height: 20px;
+}
+
+.star1-right {
+    height: 200px;
+    margin-left: 75%;
+}
+
+.table-container {
+    width: 80%;
+    min-height: 100vh;
+    border: 1px solid #ccc;
+    /* margin-top: 110vh; */
+    margin-left: 250px;
+    position: absolute;
+    top: 210vh;
+    border-radius: 12px;
+}
+
+.table-container {
+    max-width: 1000px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+thead {
+    background-color: #e3f0fa;
+}
+
+/* th,
+td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #d0e4f0;
+} */
+
+th {
+    font-weight: bold;
+    color: #000000;
+}
+
+td {
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+    border: 1px solid #d0e4f0;
+}
+
+th,
+td {
+    padding: 14px 18px;
+    text-align: left;
+    border: 1px solid #d0e4f0;
+}
+
+.table-container2 {
+    min-width: 1000px;
+    margin: 40px auto;
+    border-radius: 12px;
+    position: absolute;
+    top: 340vh;
+    left: 250px;
+    border-radius: 12px;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+    border: 1px solid #d0e4f0;
+    border-radius: 12px;
+}
+
+.table2 thead {
+    background-color: #e3f0fa;
+}
+
+.table2 th,
+.table2 td {
+    padding: 14px 18px;
+    text-align: left;
+    border: 1px solid #d0e4f0;
+}
+
+.table2 th {
+    font-weight: bold;
+    color: #000000;
+}
+
+.table2 td {
+    color: #000000;
+}
+
+.star2-left {
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    margin-top: 800px;
+}
+
+.star2-right {
+    height: 340px;
+    position: absolute;
+    right: 0px;
+    margin-top: 1600px;
+}
+
+.blok {
+    width: 1000px;
+    border: 1px solid #dfe8f0;
+    border-radius: 6px;
+    overflow: hidden;
+    position: absolute;
+    top: 530vh;
+    left: 250px;
+}
+
+.jadval {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.jadval th,
+.jadval td {
+    border: 1px solid #dfe8f0;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.sarlavha {
+    background-color: #eaf6fc;
+}
+
+.kattatext {
+    font-weight: bold;
+}
+
+.star3-left {
+    height: 200px;
+    position: absolute;
+    top: 500vh;
+    left: 0;
+}
+
+.star3-right {
+    height: 200px;
+    position: absolute;
+    right: 20px;
+    top: 420vh;
+}
+
+.tell-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    margin-top: 510vh;
+    position: absolute;
+}
+
+.washingCar1 {
+    height: 270px;
+    margin-top: -100px;
+    opacity: 20%;
+}
+
+.washingCar2 {
+    height: 480px;
+    margin-left: 1050px;
+    opacity: 40%;
+    margin-top: -1000px;
+}
+
+.box-tell {
+    width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.n1 {
+    color: #000000;
+}
+
+.n2 {
+    color: rgb(255, 153, 0);
+}
+
+.info-tell2 {
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    margin-top: 50px;
+    margin-left: -500px;
+}
+
+.fa-star {
+    color: #fff;
+}
+
+.stars h2 {
+    color: #ffffff;
+}
+
+.box-stars1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: -2px;
+}
+
+.box-stars2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-stars3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 55px;
 }
